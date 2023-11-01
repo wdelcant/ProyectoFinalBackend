@@ -123,5 +123,5 @@ public class OdontologoTest {
         assertEquals(2, odontologoservicio.listarOdontologos().size());
     }
 
-    }
+
 }

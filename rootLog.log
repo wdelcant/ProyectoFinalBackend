@@ -55,3 +55,14 @@ INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) [2
 2023-11-01 00:56:15,244 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
 2023-11-01 00:56:15,245 [main] INFO  OdontologoTest - [Odontologo ignacioriveros, Odontologo nacioriveros]
 2023-11-01 00:56:15,249 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 01:04:47,150 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 01:04:47,375 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - Conexión exitosa a la base de datos
+2023-11-01 01:04:47,381 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - prep0: INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) {1: CAST(6 AS BIGINT), 2: 255, 3: 'pedro', 4: 'riveros'}
+2023-11-01 01:04:47,422 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 01:04:47,423 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 01:04:47,436 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - Conexión exitosa a la base de datos
+2023-11-01 01:04:47,436 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - prep1: INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) {1: CAST(7 AS BIGINT), 2: 205, 3: 'juan', 4: 'riveros'}
+2023-11-01 01:04:47,469 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 01:04:47,469 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 01:04:47,469 [main] INFO  OdontologoTest - []
+2023-11-01 01:04:47,469 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
