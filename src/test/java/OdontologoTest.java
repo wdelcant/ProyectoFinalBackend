@@ -99,10 +99,10 @@ public class OdontologoTest {
         Odontologo odontologo = new Odontologo(5 , 255 ,"ignacio","riveros");
         Odontologo odontologo2 = new Odontologo(4 , 205 ,"nacio","riveros");
         OdontologoService odontologoservicio = new OdontologoService();
-        odontologoservicio.registrarOdontologo(odontologo2);
-        odontologoservicio.registrarOdontologo(odontologo);
+        odontologoservicio.guardarEnMemoria(odontologo);
+        odontologoservicio.guardarEnMemoria(odontologo2);
 
-        logger.info("Odontologo creado: " +odontologoservicio.listarOdontologos());
+        logger.info(odontologoservicio.listarOdontologos());
 
         assertEquals(2, odontologoservicio.listarOdontologos().size());
     }
@@ -110,6 +110,18 @@ public class OdontologoTest {
     @Test
     public void testearH2() {
         // lo mismo de arriba pero DAO en H2
+
+        Odontologo odontologo = new Odontologo(6 , 255 ,"pedro","riveros");
+        Odontologo odontologo2 = new Odontologo(7 , 205 ,"juan","riveros");
+        OdontologoService odontologoservicio = new OdontologoService();
+
+        odontologoservicio.registrarOdontologo(odontologo);
+        odontologoservicio.registrarOdontologo(odontologo2);
+
+        logger.info(odontologoservicio.listarOdontologos());
+
+        assertEquals(2, odontologoservicio.listarOdontologos().size());
+    }
 
     }
 }

@@ -36,3 +36,22 @@ INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) [2
 2023-10-31 22:56:05,217 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
 2023-10-31 22:56:05,223 [main] INFO  OdontologoTest - Odontologo creado: [Odontologo nacioriveros, Odontologo ignacioriveros]
 2023-10-31 22:56:05,223 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 00:53:25,301 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 00:53:25,303 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 00:53:25,303 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 00:53:25,303 [main] INFO  OdontologoTest - [Odontologo ignacioriveros]
+2023-11-01 00:53:25,308 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 00:54:07,849 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 00:54:07,852 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 00:54:07,852 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 00:54:07,852 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 00:54:07,853 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 00:54:07,853 [main] INFO  OdontologoTest - [Odontologo ignacioriveros, Odontologo nacioriveros]
+2023-11-01 00:54:07,858 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 00:56:15,242 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 00:56:15,244 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 00:56:15,244 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-11-01 00:56:15,244 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-11-01 00:56:15,244 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-11-01 00:56:15,245 [main] INFO  OdontologoTest - [Odontologo ignacioriveros, Odontologo nacioriveros]
+2023-11-01 00:56:15,249 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos

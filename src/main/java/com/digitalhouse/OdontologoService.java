@@ -26,7 +26,6 @@ public class OdontologoService {
         } else {
             try {
                 odontologoDAO.registrar(odontologo);
-                odontologos.add(odontologo);
                 logger.info("Se registro el odotologo");
             } catch (SQLException e) {
                 logger.error("No se pudo registrar el odontologo" + e.getMessage());
@@ -37,6 +36,27 @@ public class OdontologoService {
             }
         }
     }
+
+    public void guardarEnMemoria(Odontologo odontologo) {
+
+        logger.info("Voy a registrar un odontologo");
+
+        if (odontologo.getNombre().isEmpty() || odontologo.getApellido().isEmpty() || odontologo.getNumeroMatricula() < 0) {
+
+            logger.error("No se puede registrar el odontologo");
+        } else {
+            try {
+
+                odontologos.add(odontologo);
+                logger.info("Se registro el odotologo");
+            } catch (Exception e) {
+                logger.error("No se pudo registrar el odontologo" + e.getMessage());
+                e.printStackTrace();
+            }
+
+        }
+    }
+
 
     public List<Odontologo> listarOdontologos() {
         logger.info("Voy a listar los odontologos");
