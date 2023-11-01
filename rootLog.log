@@ -1,0 +1,38 @@
+2023-10-31 21:54:03,618 [main] INFO  OdontologoTest - Mensaje de prueba
+2023-10-31 21:56:17,572 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 21:56:17,759 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - Conexión exitosa a la base de datos
+2023-10-31 21:56:17,765 [main] ERROR com.digitalhouse.OdontologoDAOH2Impl - Error al registrar el odotonlogo Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ 1, 'Perez', 'Juan', 222222)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ 1, 'Perez', 'Juan', 222222)"; SQL statement:
+INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) [23505-224]
+2023-10-31 21:56:17,856 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 21:56:17,858 [main] INFO  OdontologoTest - Mensaje de prueba
+2023-10-31 21:57:18,029 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 21:57:18,211 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - Conexión exitosa a la base de datos
+2023-10-31 21:57:18,217 [main] ERROR com.digitalhouse.OdontologoDAOH2Impl - Error al registrar el odotonlogo Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ 1, 'Perez', 'Juan', 222222)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ 1, 'Perez', 'Juan', 222222)"; SQL statement:
+INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) [23505-224]
+2023-10-31 21:57:18,308 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 21:57:18,310 [main] INFO  OdontologoTest - Mensaje de prueba
+2023-10-31 21:59:00,546 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 21:59:00,729 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - Conexión exitosa a la base de datos
+2023-10-31 21:59:00,735 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - prep0: INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) {1: CAST(1 AS BIGINT), 2: 222222, 3: 'Perez', 4: 'Juan'}
+2023-10-31 21:59:00,811 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 21:59:00,812 [main] INFO  OdontologoTest - Mensaje de prueba
+2023-10-31 22:13:17,698 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 22:13:17,874 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - Conexión exitosa a la base de datos
+2023-10-31 22:13:17,880 [main] ERROR com.digitalhouse.OdontologoDAOH2Impl - Error al registrar el odotonlogo Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ 1, 'Perez', 'Juan', 222222)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ 1, 'Perez', 'Juan', 222222)"; SQL statement:
+INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) [23505-224]
+2023-10-31 22:13:17,966 [main] INFO  OdontologoTest - Odontologo creado: Odontologo PerezJuan
+2023-10-31 22:13:17,967 [main] INFO  OdontologoTest - Mensaje de prueba
+2023-10-31 22:56:04,923 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-10-31 22:56:05,130 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - ConexiÃ³n exitosa a la base de datos
+2023-10-31 22:56:05,136 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - prep0: INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) {1: CAST(4 AS BIGINT), 2: 205, 3: 'nacio', 4: 'riveros'}
+2023-10-31 22:56:05,174 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-10-31 22:56:05,174 [main] INFO  com.digitalhouse.OdontologoService - Voy a registrar un odontologo
+2023-10-31 22:56:05,185 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - ConexiÃ³n exitosa a la base de datos
+2023-10-31 22:56:05,185 [main] INFO  com.digitalhouse.OdontologoDAOH2Impl - prep1: INSERT INTO odontologo (ID,NUMEROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?,?) {1: CAST(5 AS BIGINT), 2: 255, 3: 'ignacio', 4: 'riveros'}
+2023-10-31 22:56:05,217 [main] INFO  com.digitalhouse.OdontologoService - Se registro el odotologo
+2023-10-31 22:56:05,217 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
+2023-10-31 22:56:05,223 [main] INFO  OdontologoTest - Odontologo creado: [Odontologo nacioriveros, Odontologo ignacioriveros]
+2023-10-31 22:56:05,223 [main] INFO  com.digitalhouse.OdontologoService - Voy a listar los odontologos
